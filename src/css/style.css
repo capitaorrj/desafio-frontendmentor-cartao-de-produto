@@ -47,15 +47,12 @@ body {
   gap: 20px;
 }
 .promocao {
-  /* margin: 20px; */
   display: flex;
   font-size: 40px;
   color: hsl(158, 36%, 37%);
-  /* padding: 0px 20px 20px 0px;     */
   font-family: "Fraunces", sans-serif;
 }
-.preco {
-  /* padding: 10px 20px; */
+.preco {  
   color: gray;
   font-family: "Fraunces", sans-serif;
   font-size: 14px;
@@ -69,10 +66,10 @@ body {
   margin: 15px 30px 20px 22px;
   color: #ffff;
   font-size: 15px;
-
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  border:none;
 }
 .botao:hover {
   transition: 1.05;
