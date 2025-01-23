@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.conteiner {
+  width: 596px;
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 16px;
+  height: 505px;
+}
+.perfume img {
+  width: 297px;
+  border-radius: 10px 0px 0px 10px;
+  justify-content: center;
+  height: 505px;
+}
+
+.texto-perfume {
+  margin: 25px 0px 0px 20px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+.texto-principal {
+  margin: 15px 0px 0px 20px;
+  font-size: 38px;
+  font-family: "Fraunces", sans-serif;
+  color: hsl(212, 21%, 14%);
+  font-weight: 700;
+}
+.paragrafo {
+  padding: 20px 0px 0px 20px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.valores {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px 30px 20px;
+  gap: 20px;
+}
+.promocao {
+  /* margin: 20px; */
+  display: flex;
+  font-size: 40px;
+  color: hsl(158, 36%, 37%);
+  /* padding: 0px 20px 20px 0px;     */
+  font-family: "Fraunces", sans-serif;
+}
+.preco {
+  /* padding: 10px 20px; */
+  color: gray;
+  font-family: "Fraunces", sans-serif;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+.botao {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 6px;
+  width: 240px;
+  height: 60px;
+  margin: 15px 30px 20px 22px;
+  color: #ffff;
+  font-size: 15px;
+
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.botao:hover {
+  transition: 1.05;
+  background-color: hsl(159, 55%, 17%);
+}

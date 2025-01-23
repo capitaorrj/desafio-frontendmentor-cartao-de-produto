@@ -1,0 +1,150 @@
+@media (max-width: 1920px) {
+    .mobile {
+        display: none;
+    }
+}
+@media (max-width:610px) {
+
+    .conteiner{
+        display:flex;
+        flex-direction: column;
+        width: 450px;
+        height: 800px;
+    }
+    .perfume{
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .mobile img {
+        width: 450px;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+    .paragrafo{
+        margin: 20px 0px 0px 0px;
+    }
+    .valores{
+        margin: 40px 0px 0px 20px;
+    }
+    .botao{
+        width: 390px;
+        margin: 50px 0px 0px 29px;
+    }
+}
+@media (max-width: 500px) {
+    .conteiner {
+        
+        width: 400px;
+        height: 800px;
+    }
+    .perfume {
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile img {
+        width: 400px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .texto-principal {
+        margin-top: 25px;
+    }
+
+    .paragrafo {
+        margin-top: 25px;
+    }
+
+    .botao {
+        margin: 30px 0px 0px 30px;
+        width: 340px;
+    }
+}
+
+@media (max-width:380px) {
+    .conteiner{
+        width: 300px;
+        height: 700px;
+    }
+
+    .mobile img{
+        width: 300px;
+        border: 10px 10px 0px 0px;
+    }
+
+    .texto-principal{
+        font-size: 38px;
+        margin: 10px 0px 0px 20px;
+    }
+
+    .paragrafo{
+        margin: 10px 10px 0px 0px;
+    }
+
+    .valores {
+        margin: 20px 0px 0px 20px;
+    }
+
+    .botao {
+        width: 260px;
+        margin: 25px 20px 0px 20px;
+    }
+
+}
+
+
+/* @media(min-width:1440px) {
+    .mobile {
+        display: none;
+    }
+}
+@media (max-width:1440px){
+   main .conteiner {
+        width: 60%;
+        margin:170px 0px 0px 400px;
+        
+        
+    }
+    .mobile {
+        display: none;
+    }
+    .perfume img {
+        width:280px;
+    }  
+}
+@media (max-width:1000px){
+    main .conteiner {
+        width:60%;
+        margin: 300px 0px 0px 200px;
+    }
+    .perfume img {
+        width:280px;
+    }
+    .mobile {
+        display: none;
+    }
+}
+@media (max-width:800px){
+main .conteiner {
+    width: 78%;
+    margin: 190px 0px 0px 100px;
+}
+.perfume img {
+    width:230px;
+} 
+.botao {
+    max-width: 400px;
+} 
+}
+@media (max-width:500px){
+    main .conteiner {
+        width:80%;
+        margin: 200px 0px 0px 40px
+    }
+    .textos {
+        max-width: 300px;
+    }
+} */
